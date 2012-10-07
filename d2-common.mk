@@ -48,8 +48,9 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     ueventd.qcom.rc
 
-# Torch
-PRODUCT_PACKAGES += Torch
+#BAMF Apps
+PRODUCT_PACKAGES += \
+    BAMFTorch
 
 # Vold configuration
 PRODUCT_COPY_FILES += \
