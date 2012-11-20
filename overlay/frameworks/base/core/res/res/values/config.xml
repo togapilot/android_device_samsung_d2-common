@@ -32,10 +32,22 @@
     <!-- Default color for notification LED is white. -->
     <color name="config_defaultNotificationColor">#ffffffff</color>
 
+<<<<<<< HEAD
     <!-- Default value for led color when battery is medium charged -->
     <!-- The green LED is brighter than red, bias closer to yellow. -->
     <integer name="config_notificationsBatteryLowARGB">1</integer>
     <integer name="config_notificationsBatteryMediumARGB">0xFFFF6000</integer>
+=======
+    <!-- Default LED on time for notification LED in milliseconds. -->
+    <integer name="config_defaultNotificationLedOn">250</integer>
+
+    <!-- Default LED off time for notification LED in milliseconds. -->
+    <integer name="config_defaultNotificationLedOff">5000</integer>
+
+    <!-- Hijack the colors for our lights lib -->
+    <integer name="config_notificationsBatteryLowARGB">1</integer>
+    <integer name="config_notificationsBatteryMediumARGB">1</integer>
+>>>>>>> parent of bab1e92... config.xml: Enable battery LED and "Battery light" settings.
     <integer name="config_notificationsBatteryFullARGB">5</integer>
 
     <!-- If this is true, the screen will come on when you unplug usb/power/whatever. -->
