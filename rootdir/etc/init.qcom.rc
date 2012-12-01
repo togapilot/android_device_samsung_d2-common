@@ -85,6 +85,7 @@ on boot
     chmod 2770 /dev/socket/qmux_radio
     mkdir /dev/socket/qmux_audio 0770 media audio
     chmod 2770 /dev/socket/qmux_audio
+<<<<<<< HEAD
     mkdir /dev/socket/qmux_blueooth 0770 bluetooth bluetooth
     chmod 2770 /dev/socket/qmux_bluetooth
     mkdir /dev/socket/qmux_gps 0770 gps gps
@@ -92,6 +93,12 @@ on boot
 
     # Allow QMUX daemon to assign port open wait time
     chown radio radio /sys/devices/virtual/hsicctl/hsicctl0/modem_wait
+=======
+#    mkdir /dev/socket/qmux_bluetooth 0770 bluetooth bluetooth
+#    chmod 2770 /dev/socket/qmux_bluetooth
+    mkdir /dev/socket/qmux_gps 0770 gps gps
+    chmod 2770 /dev/socket/qmux_gps
+>>>>>>> 8aa2823... d2: Fix path for JB RIL sockets
 
     setprop wifi.interface wlan0
 
