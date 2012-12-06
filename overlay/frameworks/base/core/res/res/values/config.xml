@@ -300,4 +300,12 @@
 
     <!-- Indicate whether the SD card is accessible without removing the battery. -->
     <bool name="config_batterySdCardAccessibility">true</bool>
+<<<<<<< HEAD
+=======
+
+    <!-- Disable the home key unlock setting
+    <bool name="config_disableHomeUnlockSetting">false</bool>-->
+
+    <bool name="config_enableWifiDisplay">true</bool>
+>>>>>>> 08bc125... d2: Enable WFD
 </resources>
