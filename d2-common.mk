@@ -99,7 +99,14 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.data_netmgrd_nint=16 \
     lpa.decode=true \
     rild.libpath=/system/lib/libril-qc-qmi-1.so \
-    ril.subscription.types=NV,RUIM
+    ril.subscription.types=NV,RUIM \
+    ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
+    ro.url.legal.android_privacy=http://www.google.com/intl/%s/mobile/android/basic/privacy.html \
+    ro.com.google.clientidbase=android-google \
+    ro.com.android.wifi-watchlist=GoogleGuest \
+    ro.setupwizard.enterprise_mode=1 \
+    ro.com.android.dateformat=MM-dd-yyyy \
+    ro.com.android.dataroaming=false
 
 # common msm8960
 $(call inherit-product, device/samsung/msm8960-common/msm8960.mk)
