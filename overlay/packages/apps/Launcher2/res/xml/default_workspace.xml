@@ -29,7 +29,7 @@
 
     <!-- Middle screen [3] -->
     <appwidget
-        launcher:packageName="com.android.deskclock"
+        launcher:packageName="com.google.android.deskclock"
         launcher:className="com.android.alarmclock.AnalogAppWidgetProvider"
         launcher:screen="3"
         launcher:x="1"
