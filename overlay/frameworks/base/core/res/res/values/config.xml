@@ -301,5 +301,28 @@
     <!-- Indicate whether the SD card is accessible without removing the battery. -->
     <bool name="config_batterySdCardAccessibility">true</bool>
 
+     <!-- The duration (in milliseconds) of a short animation. -->
+    <integer name="config_shortAnimTime">100</integer>
+
+    <!-- The duration (in milliseconds) of a medium-length animation. -->
+    <integer name="config_mediumAnimTime">200</integer>
+
+    <!-- The duration (in milliseconds) of a long animation. -->
+    <integer name="config_longAnimTime">250</integer>
+
+    <!-- The duration (in milliseconds) of the activity open/close and fragment open/close animations. -->
+    <integer name="config_activityShortDur">50</integer>
+    <integer name="config_activityDefaultDur">120</integer>
+
+    <!-- If true, the screen can be rotated via the accelerometer in all 4 rotations as the default behavior. -->
+    <bool name="config_allowAllRotations">true</bool>
+
+    <!-- Set to true to add links to Cell Broadcast app from Settings and MMS app. -->
+    <bool name="config_cellBroadcastAppLinks">true</bool>
+
+        <!-- Quick Settings -->
+    <bool name="config_allowQuickSettingMobileData">true</bool>
+    <bool name="config_allowQuickSettingTorch">true</bool>
+
     <bool name="config_enableWifiDisplay">true</bool>
 </resources>
