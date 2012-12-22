@@ -106,6 +106,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.wifi-watchlist=GoogleGuest \
     ro.setupwizard.enterprise_mode=1 
 
+# Workaround for MDP underrun issue with 4-layer composition
+PRODUCT_PROPERTY_OVERRIDES += \
+    debug.mdpcomp.maxlayer=3
+
 # common msm8960
 $(call inherit-product, device/samsung/msm8960-common/msm8960.mk)
 
