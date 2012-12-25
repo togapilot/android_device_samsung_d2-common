@@ -46,10 +46,6 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     ueventd.qcom.rc
 
-#BAMF Apps
-PRODUCT_PACKAGES += \
-    BAMFTorch
-
 # Vold configuration
 PRODUCT_COPY_FILES += \
     device/samsung/d2-common/vold.fstab:system/etc/vold.fstab

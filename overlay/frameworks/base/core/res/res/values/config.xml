@@ -320,9 +320,5 @@
     <!-- Set to true to add links to Cell Broadcast app from Settings and MMS app. -->
     <bool name="config_cellBroadcastAppLinks">true</bool>
 
-        <!-- Quick Settings -->
-    <bool name="config_allowQuickSettingMobileData">true</bool>
-    <bool name="config_allowQuickSettingTorch">true</bool>
-
     <bool name="config_enableWifiDisplay">true</bool>
 </resources>

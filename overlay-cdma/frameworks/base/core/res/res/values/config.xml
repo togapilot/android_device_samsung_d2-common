@@ -50,7 +50,4 @@
         <item>"supl"</item>
     </string-array>
 
-        <!-- Quick Settings -->
-    <bool name="config_allowQuickSettingLTE">true</bool>
-
 </resources>
