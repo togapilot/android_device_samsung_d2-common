@@ -327,12 +327,10 @@
     <!-- Enable WFD -->
     <bool name="config_enableWifiDisplay">true</bool>
 
-<<<<<<< HEAD
     <!-- Flag indicating if the speed up audio on mt call code should be executed -->
     <bool name="config_speed_up_audio_on_mt_calls">true</bool>
-=======
+
     <!-- Enable multi-user -->
     <integer name="config_multiuserMaximumUsers">8</integer>
-
->>>>>>> f9ace49... d2: Enable multi-user
+r
 </resources>
