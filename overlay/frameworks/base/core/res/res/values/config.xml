@@ -320,22 +320,13 @@
     <!-- Set to true to add links to Cell Broadcast app from Settings and MMS app. -->
     <bool name="config_cellBroadcastAppLinks">true</bool>
 
-<<<<<<< HEAD
-=======
-        <!-- Quick Settings -->
-    <bool name="config_allowQuickSettingMobileData">true</bool>
-    <bool name="config_allowQuickSettingTorch">true</bool>
-
     <!-- Enable WFD -->
->>>>>>> b4d92bf... enable multiuser support
     <bool name="config_enableWifiDisplay">true</bool>
 
-<<<<<<< HEAD
     <!-- Flag indicating if the speed up audio on mt call code should be executed -->
     <bool name="config_speed_up_audio_on_mt_calls">true</bool>
-=======
+
     <!-- Enable multi-user -->
     <integer name="config_multiuserMaximumUsers">8</integer>
 
->>>>>>> f9ace49... d2: Enable multi-user
 </resources>
