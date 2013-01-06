@@ -103,10 +103,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.setupwizard.enterprise_mode=1 \
     ro.ril.samsung_data_call_magic=true
 
-# Workaround for MDP underrun issue with 4-layer composition
-PRODUCT_PROPERTY_OVERRIDES += \
-    debug.mdpcomp.maxlayer=3
-
 # common msm8960
 $(call inherit-product, device/samsung/msm8960-common/msm8960.mk)
 
