@@ -100,24 +100,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
     lpa.decode=true \
     rild.libpath=/system/lib/libril-qc-qmi-1.so \
     ril.subscription.types=NV,RUIM \
-<<<<<<< HEAD
     ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
     ro.url.legal.android_privacy=http://www.google.com/intl/%s/mobile/android/basic/privacy.html \
     ro.com.google.clientidbase=android-google \
     ro.com.android.wifi-watchlist=GoogleGuest \
     ro.setupwizard.enterprise_mode=1 \
     ro.ril.samsung_data_call_magic=true
-=======
-    ro.config.svlte1x=true \
-    ro.cdma.subscribe_on_ruim_ready=true \
-    persist.radio.no_wait_for_card=1 \
-    keyguard.no_require_sim=true \
-    media.aac_51_output_enabled=true
-
-# Workaround for MDP underrun issue with 4-layer composition
-PRODUCT_PROPERTY_OVERRIDES += \
-    debug.mdpcomp.maxlayer=3
->>>>>>> ace8f5b... d2: adds support for 5.1 sound
 
 # common msm8960
 $(call inherit-product, device/samsung/msm8960-common/msm8960.mk)
